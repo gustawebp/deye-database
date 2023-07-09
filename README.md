@@ -7,5 +7,5 @@
 
 
 <h1>Falar com o DEV</h1>
-<a target="_blank" href="linkedin.com/gustawebp" > Linkedin </a>
+<a target="_blank" href="https://www.linkedin.com/in/gustawebp/" > Linkedin </a>
 <a  target="_blank" href="mailto:gustavo.campos@deyeinversores.com.br" > Email </a>
