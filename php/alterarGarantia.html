@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Deye </title>
+    <link rel="stylesheet" href="../css/alterarGarantia.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="shortcut icon" href="../imgs/logodeyefundo.png" type="image/x-icon">
+    <script src="../js/alterarGarantia.js"></script>
+</head>
+<body>  
+
+    
+    <a href="../dashboard.html">
+        <button id="back-btt">
+            VOLTAR
+        </button>
+
+    </a>
+
+    <main>
+        <h1>Alterar Garantias</h1>
+
+        <form id="alter-form" method="POST" action="alter.php">
+            <input placeholder="CASE NUMBER" name="casenumber-alter" type="text">
+            
+            <select name="opt-alter" id="opt-alter">
+                <option value="#">Coluna</option>
+                <option value="PRIORITY">Priority</option>
+                <option value="NAME">Name</option>
+                <option value="STATUS">Status</option>
+                <option value="REPLACEORFIX">Replace/Fix</option>
+                <option value="CASEORIGIN">Case Origin</option>
+                <option value="RESPONSIBLEENGINEER">Responsible Engineer</option>
+                <option value="DISTRIBUTOR">Distributor</option>
+                <option value="MODEL">Model</option>
+                <option value="SN">SN</option>
+                <option value="FAULT">Fault</option>
+                <option value="COMMENTS">Comments</option>
+                <option value="OPENINGCASEDATE">Opening Case Date</option>
+                <option value="FREIGHTPAYER">Freight Payer</option>
+                <option value="REASONTODISAPPROVE">Reason to Disapprove</option>
+                <option value="APPROVALDATE">Approval Date</option>
+                <option value="APPROVAL">Approval</option>
+                <option value="DAYSENDBYCUSTOMER">Days Sent by Customer</option>
+                <option value="INVOICE">Invoice</option>
+                <option value="SENTBACKUP">Sent Backup</option>
+                <option value="CUSTOMERRETURNDATE">Customer Return Date</option>
+                <option value="RETURNINVOICE">Return Invoice</option>
+                <option value="TRACKING">Tracking</option>
+                <option value="SEPARATED">Separated</option>
+                <option value="DATEOFSEPARATIONREQUEST">Date of Separation Request</option>
+                <option value="RECEIVINGDATE">Receiving Date</option>
+                <option value="REPAIRTECHNICIAN">Repair Technician</option>
+                <option value="REPAIRED">Repaired</option>
+                <option value="REPAIRDATE">Repair Date</option>
+                <option value="WAITINGBOARD">Waiting Board</option>
+                <option value="LIMITCASEDATE">Limit Case Date</option>
+                <option value="MISSINGDAYS">Missing Days</option>
+                <option value="controlformaintenance">Control for Maintenance</option>
+                <option value="testes">Testes</option>
+              </select>
+            <input placeholder="Valor Para Alteração" name="novo-valor" type="text">   
+            <br>  
+            <input type="submit" class="sub-btt" value="Alterar">
+
+            <div class="logo-deye-div">
+                <img id="logo-deye" src="../imgs/Logo-Deye-removebg-preview.png" alt="">
+            </div>
+        </form>
+    
+
+    </main>
+
+    
+
+
+
+
+
+</body>

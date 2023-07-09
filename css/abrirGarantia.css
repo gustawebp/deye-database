@@ -1,0 +1,79 @@
+
+.form-abrirGarantia{
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    width: 25%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow:
+  2px 2px 1.6px rgba(0, 0, 0, 0.041),
+  4.5px 4.5px 3.6px rgba(0, 0, 0, 0.059),
+  7.9px 7.9px 6.3px rgba(0, 0, 0, 0.073),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.085),
+  19.3px 19.3px 15.5px rgba(0, 0, 0, 0.097),
+  30.1px 30.1px 24.1px rgba(0, 0, 0, 0.111),
+  50px 50px 40px rgba(0, 0, 0, 0.129),
+  100px 100px 80px rgba(0, 0, 0, 0.17)
+;
+
+}
+
+label,input,select,option{
+    margin: 10px;
+
+    border: 0;
+    color: white;
+}
+select, option{
+    background-color:#707b9cc5 ;
+}
+input::placeholder {
+    color: rgba(255, 255, 255, 0.39);
+}
+input[type="text"] {
+    background-color:#010a2600 ;
+    border: 0;
+    border-bottom: 1px solid white;
+}
+
+.sub-btt {
+    background-color: #000000;
+
+    color: rgb(255, 255, 255);
+    border: 0;
+    padding: 5px 30px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 25px;
+    
+
+}#back-btt{
+    padding: 10px 15px;
+    cursor: pointer;
+    box-shadow: 1px 5px 10px black;
+    font-weight: bolder;
+}
+
+
+
+/* Color Theme Swatches in Hex */
+.Copy-of-Copy-of-Navy-Blue-Light-Red-1-hex { color: #010A26; }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-2-hex { color: #011640; }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-3-hex { color: #B6D6F2; }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-4-hex { color: #FFFFFF; }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-5-hex { color: #E83338; }
+
+/* Color Theme Swatches in RGBA */
+.Copy-of-Copy-of-Navy-Blue-Light-Red-1-rgba { color: rgba(1, 10, 38, 1); }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-2-rgba { color: rgba(1, 21, 63, 1); }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-3-rgba { color: rgba(182, 214, 242, 1); }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-4-rgba { color: rgba(255, 255, 255, 1); }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-5-rgba { color: rgba(232, 51, 56, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Copy-of-Copy-of-Navy-Blue-Light-Red-1-hsla { color: hsla(0, 94, 7, 1); }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-2-hsla { color: hsla(0, 96, 12, 1); }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-3-hsla { color: hsla(0, 69, 83, 1); }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-4-hsla { color: hsla(0, 0, 100, 1); }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-5-hsla { color: hsla(0, 79, 55, 1); }

@@ -1,0 +1,56 @@
+main{
+
+    margin: auto;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 25%;
+    padding: 25px;
+
+}
+
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.39);
+}
+input[type="text"] {
+    background-color:#010a2600 ;
+    border: 0;
+    border-bottom: 1px solid white;
+}
+
+.sub-btt {
+    background-color: #ffffff;
+
+    color: black;
+    border: 0;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 25px;
+
+}
+
+
+
+
+/* Color Theme Swatches in Hex */
+.Copy-of-Copy-of-Navy-Blue-Light-Red-1-hex { color: #010A26; }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-2-hex { color: #011640; }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-3-hex { color: #B6D6F2; }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-4-hex { color: #FFFFFF; }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-5-hex { color: #E83338; }
+
+/* Color Theme Swatches in RGBA */
+.Copy-of-Copy-of-Navy-Blue-Light-Red-1-rgba { color: rgba(1, 10, 38, 1); }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-2-rgba { color: rgba(1, 21, 63, 1); }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-3-rgba { color: rgba(182, 214, 242, 1); }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-4-rgba { color: rgba(255, 255, 255, 1); }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-5-rgba { color: rgba(232, 51, 56, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Copy-of-Copy-of-Navy-Blue-Light-Red-1-hsla { color: hsla(0, 94, 7, 1); }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-2-hsla { color: hsla(0, 96, 12, 1); }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-3-hsla { color: hsla(0, 69, 83, 1); }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-4-hsla { color: hsla(0, 0, 100, 1); }
+.Copy-of-Copy-of-Navy-Blue-Light-Red-5-hsla { color: hsla(0, 79, 55, 1); }

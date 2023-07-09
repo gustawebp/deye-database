@@ -1,0 +1,25 @@
+#alter-form{
+    margin: auto;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    width: 50%;
+    border-radius: 10px;
+}
+
+input[type="text"], option, select {
+    background-color:#010a2600 ;
+    border: 0;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 3px;
+}
+input::placeholder{
+    color: white;
+}
+main{
+    text-align: center;
+    margin: auto;
+    color: white;
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,400&display=swap');
+body{
+
+    background-color: #306492;
+
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+#logo-deye{
+    width: 150px;
+    text-align: center;
+    margin: auto;
+
+}
+.logo-deye-div{
+    text-align: center;
+
+}
+button{
+    background-color: #ffffff;
+
+    color: black;
+    border: 0;
+    padding: 15px ;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 25px;
+}
+/*.sub-btt{ 
+    background-color: #ffffff;
+
+    color: black;
+    border: 0;
+    padding: 5px 15px ;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 25px;
+
+}
+*/
+#back-btt{
+    padding: 10px 15px;
+    cursor: pointer;
+    box-shadow: 1px 5px 10px black;
+    font-weight: bolder;
+}

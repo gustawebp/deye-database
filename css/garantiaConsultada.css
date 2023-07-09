@@ -1,0 +1,30 @@
+table{
+    width: 100%;
+
+}
+
+td,tr{
+    border: 1px solid rgba(255, 255, 255, 0.192);
+    text-align: center;
+    margin: 5px;
+    
+}
+
+td{
+    padding: 0px 25px;
+    border-radius: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#back-btt{
+    padding: 10px 15px;
+    cursor: pointer;
+    box-shadow: 1px 5px 10px black;
+    font-weight: bolder;
+}

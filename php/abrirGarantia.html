@@ -1,0 +1,334 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garantia | Deye </title>
+    <link rel="stylesheet" href="../css/abrirGarantia.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <script src="../js/abrirGarantia.js"></script>
+    <link rel="shortcut icon" href="../imgs/logodeyefundo.png" type="image/x-icon">
+</head>
+<body>
+
+
+  <a href="../dashboard.html">
+    <button id="back-btt">
+        VOLTAR
+    </button>
+
+</a>
+  
+    
+     <form class="form-abrirGarantia" action="insertGarantia.php"> 
+      <h1>Abrir Garantia</h1>
+
+  <label for="priority">PRIORITY:</label>
+  <input type="text" placeholder="Prioridade do Caso" id="priority" name="priority" size="20"> <br>
+
+  <label for="name">NAME:</label>
+  <input  required type="text" placeholder="Nome do Cliente" id="name" name="name" size="20"> <br>
+
+  <label for="combo_field">SELECT AN ENGINEER:</label>
+  <select required id="combo_field" name="combo_field">
+    <option value="ENGINEER" selected>ENGINEER</option> 
+    <option value="GUSTAVO CAMPOS" >GUSTAVO CAMPOS</option> 
+  </select> <br>
+
+  <label for="replace_or_fix">REPLACE OR FIX?:</label>
+  <select id="replace_or_fix" name="replace_or_fix">
+    <option value="SOLUTION" selected>SOLUTION</option>
+    <option value="FIX" >FIX</option>
+    <option value="REPLACE" >REPLACE</option>
+  </select> <br>
+
+  <label for="case_origin">CASE ORIGIN:</label>
+  <input required type="text" id="case_origin" name="case_origin" placeholder="xxxxxxxxxxx" size="20"> <br>
+
+  <label for="combo_distribuitor">SELECT A DISTRIBUITOR:</label>
+  <select required name="combo_distribuitor">
+    <option value="77SOL">77SOL</option>
+    <option value="ALDO">ALDO</option>
+    <option value="BLUESOL">BLUESOL</option>
+    <option value="ALUMIFIX">ALUMIFIX</option>
+    <option value="BESOLAR">BESOLAR</option>
+    <option value="ARTEGRA">ARTEGRA</option>
+    <option value="BELENERGY">BELENERGY</option>
+    <option value="BLUESUN">BLUESUN</option>
+    <option value="ATINOS">ATINOS</option>
+    <option value="BEDIN">BEDIN</option>
+    <option value="CENTRY">CENTRY</option>
+    <option value="BRASSUNNY">BRASSUNNY</option>
+    <option value="CIA SOLAR">CIA SOLAR</option>
+    <option value="CINESHOP">CINESHOP</option>
+    <option value="DUFRIO">DUFRIO</option>
+    <option value="EDELTEC">EDELTEC</option>
+    <option value="ENSOLAR">ENSOLAR</option>
+    <option value="ESFERA">ESFERA</option>
+    <option value="EVOLUSOM">EVOLUSOM</option>
+    <option value="FOCO">FOCO</option>
+    <option value="FW">FW</option>
+    <option value="HANDYTECH">HANDYTECH</option>
+    <option value="HELTE">HELTE</option>
+    <option value="IBYTE">IBYTE</option>
+    <option value="ILUMISOL">ILUMISOL</option>
+    <option value="INOVACARE">INOVACARE</option>
+    <option value="INTELBRAS">INTELBRAS</option>
+    <option value="IS BRASIL">IS BRASIL</option>
+    <option value="J7 SOLAR">J7 SOLAR</option>
+    <option value="KHRONOS">KHRONOS</option>
+    <option value="LB SOLAR">LB SOLAR</option>
+    <option value="LOJA ELÉTRICA">LOJA ELÉTRICA</option>
+    <option value="MAZER">MAZER</option>
+    <option value="MEGACOMM">MEGACOMM</option>
+    <option value="MERCOSUL">MERCOSUL</option>
+    <option value="NEOSOLAR">NEOSOLAR</option>
+    <option value="NIKOSOLAR">NIKOSOLAR</option>
+    <option value="ODERÇO">ODERÇO</option>
+    <option value="OUROLUX">OUROLUX</option>
+    <option value="PULSE">PULSE</option>
+    <option value="RADAR SOLAR">RADAR SOLAR</option>
+    <option value="SICES">SICES</option>
+    <option value="SIRIUS">SIRIUS</option>
+    <option value="SKY SOLLARIS">SKY SOLLARIS</option>
+    <option value="SKYSOLAR">SKYSOLAR</option>
+    <option value="SOOLLAR">SOOLLAR</option>
+    <option value="WIN">WIN</option>
+    <option value="OUTRO">OUTRO</option>
+    <option value="DEYE">DEYE</option>
+  </select> <br>
+
+  <label for="model_combo">SELECT A MODEL:</label>
+<select required id="model_combo" name="model_combo">
+
+  <option value="SUN-1K-G">SUN-1K-G</option>
+  <option value="SUN-1.5K-G">SUN-1.5K-G</option>
+  <option value="SUN-5K-G03">SUN-5K-G03</option>
+  <option value="SUN-2K-G">SUN-2K-G</option>
+  <option value="SUN-4K-G">SUN-4K-G</option>
+  <option value="SUN-3K-G">SUN-3K-G</option>
+  <option value="SUN-5K-G">SUN-5K-G</option>
+  <option value="SUN-3K-G03">SUN-3K-G03</option>
+  <option value="SUN-3K-HD">SUN-3K-HD</option>
+  <option value="SUN-7.5K-G">SUN-7.5K-G</option>
+  <option value="SUN-6K-G">SUN-6K-G</option>
+  <option value="SUN-3.6K-G">SUN-3.6K-G</option>
+  <option value="SUN-8K-G">SUN-8K-G</option>
+  <option value="SUN-9K-G">SUN-9K-G</option>
+  <option value="SUN-10K-G">SUN-10K-G</option>
+  <option value="SUN-10.5K-G">SUN-10.5K-G</option>
+  <option value="SUN-10K-G03">SUN-10K-G03</option>
+  <option value="SUN-12K-G">SUN-12K-G</option>
+  <option value="SUN-12K-G02">SUN-12K-G02</option>
+  <option value="SUN-12K-G03">SUN-12K-G03</option>
+  <option value="SUN-15K-G">SUN-15K-G</option>
+  <option value="SUN-15K-G02">SUN-15K-G02</option>
+  <option value="SUN-15K-G03">SUN-15K-G03</option>
+  <option value="SUN-18K-G">SUN-18K-G</option>
+  <option value="SUN-18K-G03">SUN-18K-G03</option>
+  <option value="SUN-20K-G">SUN-20K-G</option>
+  <option value="SUN-20K-G02">SUN-20K-G02</option>
+  <option value="SUN-20K-G03">SUN-20K-G03</option>
+  <option value="SUN-25K-G">SUN-25K-G</option>
+  <option value="SUN-25K-G02">SUN-25K-G02</option>
+  <option value="SUN-25K-G03">SUN-25K-G03</option>
+  <option value="SUN-25K-G04">SUN-25K-G04</option>
+  <option value="SUN-30K-G">SUN-30K-G</option>
+  <option value="SUN-30K-G02">SUN-30K-G02</option>
+  <option value="SUN-30K-G03">SUN-30K-G03</option>
+  <option value="SUN-33K-G">SUN-33K-G</option>
+  <option value="SUN-33K-G02">SUN-33K-G02</option>
+  <option value="SUN-33K-G03">SUN-33K-G03</option>
+  <option value="SUN-35K-G">SUN-35K-G</option>
+  <option value="SUN-35K-G02">SUN-35K-G02</option>
+  <option value="SUN-35K-G03">SUN-35K-G03</option>
+  <option value="SUN-40K-G">SUN-40K-G</option>
+  <option value="SUN-40K-G03">SUN-40K-G03</option>
+  <option value="SUN-50K-G">SUN-50K-G</option>
+  <option value="SUN-50K-G02">SUN-50K-G02</option>
+  <option value="SUN-50K-G03">SUN-50K-G03</option>
+  <option value="SUN-60K-G">SUN-60K-G</option>
+  <option value="SUN-60K-G03">SUN-60K-G03</option>
+  <option value="SUN-75K-G">SUN-75K-G</option>
+  <option value="SUN-75K-G03">SUN-75K-G03</option>
+  <option value="SUN-75K-G05">SUN-75K-G05</option>
+  <option value="SUN-80K-G">SUN-80K-G</option>
+  <option value="SUN-100K-G03">SUN-100K-G03</option>
+  <option value="SUN-110K-G03">SUN-110K-G03</option>
+  <option value="SUN-10K-G03-LV">SUN-10K-G03-LV</option>
+  <option value="SUN-12K-G02-LV">SUN-12K-G02-LV</option>
+  <option value="SUN-12K-G03-LV">SUN-12K-G03-LV</option>
+  <option value="SUN-15K-G02-LV">SUN-15K-G02-LV</option>
+  <option value="SUN-15K-G03-LV">SUN-15K-G03-LV</option>
+  <option value="SUN-20K-G02-LV">SUN-20K-G02-LV</option>
+  <option value="SUN-25K-G02-LV">SUN-25K-G02-LV</option>
+  <option value="SUN-30K-G02-LV">SUN-30K-G02-LV</option>
+  <option value="SUN-33K-G02-LV">SUN-33K-G02-LV</option>
+  <option value="SUN-35K-G02-LV">SUN-35K-G02-LV</option>
+  <option value="SUN-40K-G-LV">SUN-40K-G-LV</option>
+  <option value="SUN-45K-G-LV">SUN-45K-G-LV</option>
+  <option value="SUN-50K-G-LV">SUN-50K-G-LV</option>
+  <option value="SUN-60K-G-LV">SUN-60K-G-LV</option>
+  <option value="SUN300G3-US-220">SUN300G3-US-220</option>
+  <option value="SUN300G3-EU-230">SUN300G3-EU-230</option>
+  <option value="SUN500G3-US-220">SUN500G3-US-220</option>
+  <option value="SUN500G3-EU-230">SUN500G3-EU-230</option>
+  <option value="SUN500G-230-EU">SUN500G-230-EU</option>
+  <option value="SUN600G2-US-220">SUN600G2-US-220</option>
+  <option value="SUN600G2-US-208/240">SUN600G2-US-208/240</option>
+  <option value="SUN600G2-US-127">SUN600G2-US-127</option>
+  <option value="SUN600G3-US-220">SUN600G3-US-220</option>
+  <option value="SUN600G3-EU-230">SUN600G3-EU-230</option>
+  <option value="SUN800G3-EU-230">SUN800G3-EU-230</option>
+  <option value="SUN800G3-US-221">SUN800G3-US-221</option>
+  <option value="SUN1000G3-EU-230">SUN1000G3-EU-230</option>
+  <option value="SUN1000G3-US-220">SUN1000G3-US-220</option>
+  <option value="SUN1300G2-US-208/240">SUN1300G2-US-208/240</option>
+  <option value="SUN1200G-230-EU">SUN1200G-230-EU</option>
+  <option value="SUN1300G">SUN1300G</option>
+  <option value="SUN1300G3-EU-230">SUN1300G3-EU-230</option>
+  <option value="SUN1300G3-US-220">SUN1300G3-US-220</option>
+  <option value="SUN1600G3-EU-230">SUN1600G3-EU-230</option>
+  <option value="SUN1600G3-US-220">SUN1600G3-US-220</option>
+  <option value="SUN1800G3-US-220">SUN1800G3-US-220</option>
+  <option value="SUN1800G3-EU-230">SUN1800G3-EU-230</option>
+  <option value="SUN2000G3-US-220">SUN2000G3-US-220</option>
+  <option value="SUN2000G3-EU-230">SUN2000G3-EU-230</option>
+  <option value="SUN-3K-48V-G02">SUN-3K-48V-G02</option>
+  <option value="SUN-5K-48V-G02">SUN-5K-48V-G02</option>
+  <option value="SUN-8K-48V-G02">SUN-8K-48V-G02</option>
+  <option value="SUN-10K-48V-G02">SUN-10K-48V-G02</option>
+  <option value="SUN-12K-48V-G02">SUN-12K-48V-G02</option>
+  <option value="SUN-15K-48V-G02">SUN-15K-48V-G02</option>
+  <option value="SUN-20K-48V-G02">SUN-20K-48V-G02</option>
+  <option value="SUN-30K-48V-G02">SUN-30K-48V-G02</option>
+  <option value="SUN-33K-48V-G02">SUN-33K-48V-G02</option>
+  <option value="SUN-35K-48V-G02">SUN-35K-48V-G02</option>
+  <option value="SUN-40K-48V-G02">SUN-40K-48V-G02</option>
+  <option value="SUN-45K-48V-G02">SUN-45K-48V-G02</option>
+  <option value="SUN-50K-48V-G02">SUN-50K-48V-G02</option>
+
+</select>  <br>
+
+  <label for="sn">SN:</label> 
+  <input type="text" id="sn" name="sn" size="20"> <br>
+
+  <label for="fault_combo">SELECT A FAULT:</label>
+<select required id="fault_combo" name="fault_combo">
+  <option value="NOISE">NOISE</option>
+  <option value="COMMUNICATION">COMMUNICATION</option>
+  <option value="PHISICAL DAMAGE">PHISICAL DAMAGE</option>
+  <option value="COMM. ERROR">COMM. ERROR</option>
+  <option value="AC CONNECTOR">AC CONNECTOR</option>
+  <option value="STANDBY / SELFCHECK">STANDBY / SELFCHECK</option>
+  <option value="BAD GENERATION">BAD GENERATION</option>
+  <option value="DOESN'T TURN ON">DOESN'T TURN ON</option>
+  <option value="DOESN'T GENERATES">DOESN'T GENERATES</option>
+  <option value="AC IN SHORT CIRCUIT">AC IN SHORT CIRCUIT</option>
+  <option value="DOESN'T RECOGNIZE AC">DOESN'T RECOGNIZE AC</option>
+  <option value="FAN FAULT">FAN FAULT</option>
+  <option value="PV IN SHORT CIRCUIT">PV IN SHORT CIRCUIT</option>
+  <option value="HEATING">HEATING</option>
+  <option value="LCD">LCD</option>
+  <option value="KNEADED">KNEADED</option>
+  <option value="PV1">PV1</option>
+  <option value="PV2">PV2</option>
+  <option value="PV3">PV3</option>
+  <option value="PV4">PV4</option>
+  <option value="MC4">MC4</option>
+  <option value="F01">F01</option>
+  <option value="F02">F02</option>
+  <option value="F03">F03</option>
+  <option value="F04">F04</option>
+  <option value="F05">F05</option>
+  <option value="F06">F06</option>
+  <option value="F07">F07</option>
+  <option value="F08">F08</option>
+  <option value="F09">F09</option>
+  <option value="F10">F10</option>
+  <option value="F11">F11</option>
+  <option value="F12">F12</option>
+  <option value="F13">F13</option>
+  <option value="F14">F14</option>
+  <option value="F15">F15</option>
+  <option value="F16">F16</option>
+  <option value="F17">F17</option>
+  <option value="F18">F18</option>
+  <option value="F19">F19</option>
+  <option value="F20">F20</option>
+  <option value="F21">F21</option>
+  <option value="F22">F22</option>
+  <option value="F23">F23</option>
+  <option value="F24">F24</option>
+  <option value="F25">F25</option>
+  <option value="F26">F26</option>
+  <option value="F27">F27</option>
+  <option value="F28">F28</option>
+  <option value="F29">F29</option>
+  <option value="F30">F30</option>
+  <option value="F31">F31</option>
+  <option value="F32">F32</option>
+  <option value="F33">F33</option>
+  <option value="F34">F34</option>
+  <option value="F35">F35</option>
+  <option value="F36">F36</option>
+  <option value="F37">F37</option>
+  <option value="F38">F38</option>
+  <option value="F39">F39</option>
+  <option value="F40">F40</option>
+  <option value="F41">F41</option>
+  <option value="F42">F42</option>
+  <option value="F43">F43</option>
+  <option value="F44">F44</option>
+  <option value="F45">F45</option>
+  <option value="F46">F46</option>
+  <option value="F47">F47</option>
+  <option value="F48">F48</option>
+  <option value="F49">F49</option>
+  <option value="F50">F50</option>
+  <option value="F51">F51</option>
+  <option value="F52">F52</option>
+  <option value="F53">F53</option>
+  <option value="F54">F54</option>
+  <option value="F55">F55</option>
+  <option value="F56">F56</option>
+  <option value="F57">F57</option>
+  <option value="F58">F58</option>
+  <option value="F59">F59</option>
+  <option value="F60">F60</option>
+  <option value="F61">F61</option>
+  <option value="F62">F62</option>
+  <option value="F63">F63</option>
+  <option value="F64">F64</option>
+  <option value="LIMITATION">LIMITATION</option>
+</select>
+ <br>
+
+  <label for="comments">COMMENTS:</label>
+  <input type="text" id="comments" name="comments" > <br>
+
+  
+  <label for="comments">PASTA DE TESTES (link one drive) </label>
+  <input required type="text" id="testes" name="testes" > <br>
+
+  <button class="sub-btt" name="submit" type="submit">Ok</button>
+  <a href="../dashboard.html">  <button class="sub-btt" type="button">Cancelar</button></a>
+
+  <div class="logo-deye-div">
+    <img id="logo-deye" src="../imgs/Logo-Deye-removebg-preview.png" alt="">
+</div>
+</form>
+
+
+
+
+
+
+        </form>
+
+
+
+
+</body>
+</html>
